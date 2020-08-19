@@ -382,7 +382,7 @@ var AsianaSavingMall = {
 				asianaClubIncludeDomain = asianaClubIncludeDomain.substring(asianaClubIncludeDomain.indexOf("//")+2, asianaClubIncludeDomain.length);
 				asianaClubIncludeDomain = asianaClubIncludeDomain.substring(0, asianaClubIncludeDomain.indexOf("/"));
 				asianaClubIncludeDomain = asianaClubIncludeDomain.replace(/www\./g, "");
-				asianaClubIncludeDomain = asianaClubIncludeDomain + '/asiana';
+				//asianaClubIncludeDomain = asianaClubIncludeDomain + '/C';
 
 				AsianaSavingMall.resourcePath = currentPathProtocol + asianaClubIncludeDomain;
 				AsianaSavingMall.linkPath = "http://" + asianaClubIncludeDomain;
